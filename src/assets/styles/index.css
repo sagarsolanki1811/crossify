@@ -1,0 +1,10 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+#test_mine:hover #test_mine_2{
+   opacity: 1;
+}
+
