@@ -27,6 +27,16 @@ module.exports = {
         prim: "#116466",
         bgColor: "#e9aba0",
       },
+      textColor: {
+        primary: "#3490dc",
+        secondary: "#ffed4a",
+        danger: "#e3342f",
+        bgColor: "#e9aba0",
+      },
+      borderColor: {
+        black: "#000000",
+        white: "#ffffff",
+      },
       minHeight: {
         "screen-75": "75vh",
       },

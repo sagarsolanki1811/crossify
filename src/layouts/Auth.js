@@ -14,6 +14,7 @@ import Register2 from "views/auth/Register2.js";
 import Register3 from "views/auth/Register3.js";
 import Register4 from "views/auth/Register4.js";
 import Register5 from "views/auth/Register5.js";
+import eventPage from "views/auth/eventPage.js";
 
 export default function Auth() {
   return (
@@ -37,6 +38,7 @@ export default function Auth() {
             <Route path="/auth/register3" exact component={Register3} />
             <Route path="/auth/register4" exact component={Register4} />
             <Route path="/auth/register5" exact component={Register5} />
+            <Route path="/auth/event" exact component={eventPage} />
             <Redirect from="/auth" to="/auth/login" />
           </Switch>
           {/* <Footer absolute /> */}
