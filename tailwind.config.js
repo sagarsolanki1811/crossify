@@ -26,16 +26,26 @@ module.exports = {
       colors: {
         prim: "#116466",
         bgColor: "#e9aba0",
+        redColor: "#c8163d",
+        lightRed: "#e82953",
+        beta:"#00838f",
       },
       textColor: {
         primary: "#3490dc",
         secondary: "#ffed4a",
         danger: "#e3342f",
         bgColor: "#e9aba0",
+        redColor: "#c8163d",
+        lightRed: "#e82953",
+        beta:"#00838f",
       },
       borderColor: {
         black: "#000000",
         white: "#ffffff",
+        redColor: "#c8163d",
+        lightRed: "#e82953",
+        bgColor: "#e9aba0",
+        beta:"#00838f",
       },
       minHeight: {
         "screen-75": "75vh",
