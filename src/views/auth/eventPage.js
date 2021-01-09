@@ -17,9 +17,7 @@ export default function eventPage() {
   return (
     <>
       <Navbar transparent />
-
-      <Modal transparent />
-      <div className="flex flex-wrap mt-32 bg-white py-40 justify-center">
+      <div className="flex flex-wrap mt-32 bg-white py-40 justify-center items-start">
         <div className="w-full md:w-6/12 px-4 py-4 text-black bg-gray-100 rounded-md border-2 border-gray-600">
           <img
             src={health_cat}
@@ -90,9 +88,6 @@ export default function eventPage() {
         </div>
 
         <div className="w-full md:w-4/12 px-4 py-4 text-black">
-        
-
-
           <h1 className="mt-2 text-3xl">GROUP :</h1>
           <div className="w-full flex justify-between items-start">
             <img
@@ -116,7 +111,7 @@ export default function eventPage() {
           <div className="flex flex-row justify-center my-2">
             <div className="w-6/12">
               <button
-                className="w-full text-red-500 bg-white shadow border border-solid border-red-500 hover:bg-red-500 hover:text-white active:bg-red-600 font-bold uppercase text-xs px-4 py-2 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                className="w-full text-red-500 bg-white shadow border border-solid border-red-500 hover:bg-redColor hover:text-white active:bg-red-600 font-bold uppercase text-xs px-4 py-2 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                 type="button"
               >
                 <i className="fas fa-heart"></i> Like
